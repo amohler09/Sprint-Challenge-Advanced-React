@@ -5,7 +5,14 @@ const PlayerCard = props => {
 
     return(
         <div>
-            <h1>Hello</h1>
+            {props.player.map((item, index) => (
+                <div key={index}>
+                    <p>{item.name}</p>
+                    <p>{item.country}</p>
+                    <p>{item.searches}</p>
+                
+                </div>
+            ))}
         </div>
     )
 }
