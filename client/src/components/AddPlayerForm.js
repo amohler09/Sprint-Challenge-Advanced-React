@@ -1,12 +1,18 @@
 import React from 'react'
 
-const AddPlayerForm = props => {
+
+export const AddPlayerForm = props => {
+
     return (
-        <form>
+        <form onSubmit={props.addItem}>
             <input
             type='text'
             name='playerInput'
-            value={props.playerInput}
+            onChange={props.handleChanges}
+            value={props.nameInput}
+            
+            />
+            <button className='add'>Add Player</button>
         </form>
     )
 }
