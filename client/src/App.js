@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import {NavBar} from './NavBar'
 
 import {PlayerCard} from './PlayerCard'
 
@@ -26,6 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
+        <NavBar />
         <PlayerCard players={this.state.players} />
       </div>
     )

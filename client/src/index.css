@@ -31,3 +31,30 @@ code {
   padding: 2%;
   
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.nav-bar {
+  text-align: center;
+  width: 80%;
+  margin: auto
+}
+
+.darkBtn {
+  background-color: red;
+  font-size: 1.5rem;
+  padding: 1%;
+  color: white;
+  border-radius: 15px;
+}
+
+.lightBtn {
+  background-color: black;
+  font-size: 1.5rem;
+  padding: 1%;
+  color: white;
+  border-radius: 15px;
+}
