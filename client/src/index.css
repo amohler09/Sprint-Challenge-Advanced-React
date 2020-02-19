@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.player-div {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+
+.player-card {
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  width: 15%;
+  background-color: green;
+  color: white;
+  margin: 2%;
+  padding: 2%;
+  
+}
