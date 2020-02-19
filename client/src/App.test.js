@@ -11,5 +11,12 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
+test('shows first players name', () => {
+  findByText(/Alex Morgan /)
+})
+
+test('nav bar renders', () => {
+  render(<NavBar />)
+}) 
 
 

@@ -7,7 +7,7 @@ export const PlayerCard = props => {
                 <div className='player-card' key={index}>
                     <h3>{item.name}</h3>
                     <p>{item.country}</p>
-                    <p>{item.searches}</p>
+                    <p>Searches: {item.searches}</p>
 
                 </div>
             ))}
