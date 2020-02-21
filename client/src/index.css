@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.player-div {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+
+.player-card {
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  width: 15%;
+  background-color: green;
+  color: white;
+  margin: 2%;
+  padding: 2%;
+  
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.nav-bar {
+  text-align: center;
+  width: 80%;
+  margin: auto
+}
+
+.darkBtn {
+  background-color: red;
+  font-size: 1.5rem;
+  padding: 1%;
+  color: white;
+  border-radius: 15px;
+}
+
+.lightBtn {
+  background-color: black;
+  font-size: 1.5rem;
+  padding: 1%;
+  color: white;
+  border-radius: 15px;
+}

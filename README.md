@@ -23,24 +23,27 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+-Class components would be used over functional components because they implicitly have access to state, as well as the lifecycle method and can access react component props that other couldn’t be accessed with a functional components. Functional components can take props as a parameter, but they are mostly focused on the UI and not necessarily the behavior of the app.
 - [ ] Name three lifecycle methods and their purposes.
+-* Render - Everything below the render method is the UI that will be displayed on the screen; this gives you the benefit of being able to place hooks or functions or anything javaScript above the render method -* ComponentDidMount - The code placed in this method will only render once the entire app is mounted to the browser window; this is where you would do your api calls or load your data that you want displayed to the screen -* ComponentWillUnmount - This is where you would clean up any ‘leftovers’ from your app, such as event listeners
 - [ ] What is the purpose of a custom hook?
+-A custom hook is created to hold multiple functions that can manipulate multiple parts of state and data at the same time; they are also created to be reusable and keep your code DRY.
 - [ ] Why is it important to test our apps?
-
+-If you don’t test your apps, in the short run you will have a false sense of being a fast coder; in the long run, not testing will cause bugs in your program and makes refactoring or adding features risky and scary. Testing surfaces bugs faster and allows us to trust the code as a safety net when making changes or refactoring.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Run `yarn` to download dependencies.
-- [ ] Run the server using `yarn start` or `node server.js`.
-- [ ] In a separate terminal cd into the `client` folder and run `yarn install` to download dependencies.
-- [ ] Still inside the `client` folder run `yarn start` to run the client application.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x ] Create a forked copy of this project.
+- [x ] Add TL as collaborator on Github.
+- [x ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x ] Run `yarn` to download dependencies.
+- [x ] Run the server using `yarn start` or `node server.js`.
+- [x ] In a separate terminal cd into the `client` folder and run `yarn install` to download dependencies.
+- [x ] Still inside the `client` folder run `yarn start` to run the client application.
+- [x ] Implement the project on this Branch, **committing progress & changes often.**
+- [x ] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
